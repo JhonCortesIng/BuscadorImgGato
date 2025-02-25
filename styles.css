@@ -1,0 +1,70 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: bisque;    
+}
+
+h1, #filtros {
+    text-align: center;
+}
+
+#filtro-raza {
+    padding: 8px 16px;
+    margin: auto;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagen-imagenEl {
+    width: 450px;
+    margin: 30px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.imagen-imagenEl img {
+    width: 100%;
+    overflow: hidden;
+}
+
+#pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.paginationEl {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.paginationEl button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.paginationEl button:hover {
+    background-color: #0056b3;
+}

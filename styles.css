@@ -3,7 +3,9 @@
 }
 
 body {
-    background-color: bisque;    
+    background-color: bisque;
+    margin: 0;
+    padding: 0;    
 }
 
 h1, #filtros {
@@ -20,15 +22,15 @@ h1, #filtros {
 
 .container {
     display: flex;
-    width: 100%;
-    justify-content: center;
-    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
 }
 
 #characters {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 20px 0;
 }
 
 .imagen-imagenEl {
@@ -67,4 +69,14 @@ h1, #filtros {
 
 .paginationEl button:hover {
     background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .imagen-imagenEl {
+        width: 80%;
+    }
 }
